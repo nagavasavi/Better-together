@@ -1,0 +1,1071 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+    font-family: Mont;
+    src: url(/assets/Mont-SemiBold.otf);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background: #F6F8F3;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*common class starts here for contaner responsiveness*/
+.container {
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.body {
+    background-color: #F6F8F3;
+}
+
+/*common class ends here for contaner responsiveness*/
+
+/*announcement bar css starts here*/
+.announcement .container {
+    font-family: 'Mont';
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 51px;
+    align-items: center;
+    font-weight: 700px;
+}
+
+.announcement {
+    width: 100%;
+    background-color: #E85F5C;
+}
+
+
+.announcement_button {
+    background: #F6F8F3;
+    border: 1px solid #F6F8F3;
+    width: 110px;
+    padding: 6px 11px;
+    text-align: center;
+
+}
+
+.announcement_button a {
+    color: #E85F5C;
+    padding: auto 12px;
+    text-decoration: none;
+}
+
+.announcement_button a:hover{
+    text-decoration: underline;
+}
+/*announcement bar css ends here*/
+
+/*nav bar css starts here*/
+.navbar {
+    height: 135px;
+    background: #F6F8F3;
+}
+
+.navbar a {
+    font-family: 'Mont';
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+  }
+
+.navbar_container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    margin: auto;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 135px;
+}
+
+.navbar .search {
+    align-self: center;
+}
+
+.cartmenu_icon ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartmenu_icon {
+    width: 50px;
+}
+
+/*nav bar css starts here*/
+
+/*hero banner section sarts here*/
+.hero_banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    background-image: url('/assets/images/homepage-hero-image.png');
+}
+
+.hero_banner_text {
+    padding: 214px 74px;
+}
+
+.hero_heading {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 70px;
+    color: #E85F5C;
+}
+
+.hero_button {
+    border: 1px solid #7692FF;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.hero_button:hover {
+    background-color:#E85F5C;
+    color: #fff;
+}
+
+.hero_button {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #7692FF;
+    text-decoration: none;
+}
+
+/*hero banner section ends here*/
+
+/*main event section css starst here*/
+.main_event_text h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #E85F5C;
+    margin-bottom: 15px;
+}
+
+.main_event_text p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.main_event_text {
+    margin-top: 80px;
+
+}
+
+/*main event section css starst here*/
+
+/*grid section css starts here*/
+
+.events_flex h4 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    color: #7692FF;
+    padding-bottom: 20px;
+}
+
+.events_flex p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    color: #1E1E1E;
+}
+
+.events_flex button {
+    background-color: #E85F5C;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #E8735C;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #F6F8F3;
+    text-decoration: none;
+}
+
+.events_flex button:hover{
+    border: 1px solid #7692FF;
+    background-color:transparent;
+    color:#7692FF;
+}
+
+.events_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* .events_top a,
+.events_bottom a {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #F6F8F3;
+    text-decoration: none;
+} */
+
+/* .events_top,
+.events_bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid_common {
+    text-align: center;
+}
+
+.events_bottom {
+    grid-template-columns: 1fr 1fr;
+    padding: 70px 200px;
+} */
+
+/* .events_top button a:hover, .events_bottom button a:hover {
+    background-color:transparent;
+    color:#7692FF;
+} */
+
+
+
+
+
+
+/*grid section css ends here*/
+
+/*relationship section css starts here*/
+.relation_banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    background-image: url('/assets/images/relationship-banner.jpg');
+}
+
+.relation_text h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E85F5C;
+}
+
+.relation_text p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F6F8F3;
+    padding-top: 20px;
+}
+
+.relation_banner {
+    position: relative;
+}
+
+.relation_text {
+    position: absolute;
+    top: 150px;
+    left: 145px;
+    width: 35%;
+}
+
+/*relationship section css ends here*/
+
+/*average marriage section css starts here*/
+.averagemarriage_text h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #E85F5C;
+    padding-top: 30px;
+}
+
+.averagemarriage_text p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 35px;
+}
+
+.averagemarriage_text {
+    background: #fff;
+}
+
+.average_paragraph {
+    background: #fff;
+}
+
+/*average marriage section css ends here*/
+
+/*average marriage icons section css starts here*/
+.avg_icons h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    color: #7692FF;
+}
+
+.avg_icons p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    color: #1E1E1E;
+}
+
+.avg_icons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.average_icons {
+    background: #fff;
+}
+
+/*average marriage icons section css starts here*/
+
+/*contact us section css starts here*/
+.contact p {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #F5F8F3;
+    text-align: center;
+    padding-top: 87px;
+
+}
+
+.contact {
+    background-color: #E85F5C;
+    height: 200px;
+    margin: 70px 0px;
+}
+
+.contact a {
+    color: #fff;
+}
+
+.contact a:hover{
+    text-decoration: none;
+}
+
+/*contact us section css ends here*/
+
+/*levelling up section css starts here*/
+.levelling_text h3 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 40px;
+    color: #E85F5C;
+}
+
+.levelling_text p {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 30px;
+    width: 70%;
+    padding: 60px auto;
+}
+
+.levelling {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.levelling_button {
+    background: #E85F5C;
+    border: 1px solid #E8735C;
+    padding: 10px 10px;
+    width: 30%;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #F6F8F3;
+    text-decoration: none;
+
+}
+
+/* .levelling_button a {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #F6F8F3;
+    text-decoration: none;
+} */
+
+.levelling_button:hover{
+    background-color:transparent;
+    color:#7692FF;
+    border: 1px solid #7692FF;
+
+}
+
+/* .levelling_button:hover{
+    border: 1px solid #7692FF;
+} */
+
+.levelling_text {
+    text-align: left;
+    flex-basis: 50%;
+    justify-content: center;
+    padding: 138px 67px;
+}
+
+.levelling_image {
+    padding-bottom: 60px;
+}
+
+/*levelling up section css ends here*/
+
+/*footer section css starts here*/
+.logo_list a,
+.mob_flex a,
+.Newsletter a {
+    font-family: 'Hind';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.mob_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.footer {
+    display: flex;
+    align-content: center;
+    height: 260px;
+    justify-content: space-between;
+    padding-top: 80px;
+    border-top: 1px solid #E85F5C;
+    border-bottom: 1px solid #8E8E8E;
+}
+
+.footer_bluetext {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7692FF;
+    padding-bottom: 30px;
+}
+
+ .logo_list a:hover {
+    text-decoration: underline;
+  }
+
+  .mob_flex a:hover{
+      text-decoration: underline;
+  }
+
+.logo_list img {
+    padding-bottom: 20px;
+}
+
+.parent_email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_icons {
+    display: flex;
+    padding-top: 20px;
+}
+
+.social_icons svg {
+    padding-right: 20px;
+}
+
+.email li {
+    border-bottom: 1px solid #000;
+    width: 250px;
+}
+
+.subscribe li {
+    border-bottom: 1px solid #000;
+    width: 60px;
+    font-weight: bold;
+}
+
+/*footer section css ends here*/
+
+
+/*media query starts here*/
+
+/*media query for 1071px screen starts here*/
+@media(max-width:1071px){
+    .container{
+        padding: 0px;
+    }
+
+    .announcement .container{
+        justify-content: space-around;
+    }
+    .navbar, .hero_banner_section, .relation, .contact_us, .footer_common{
+    padding: 0 20px;
+    }
+
+    .levelling_button{
+        width: 45%;
+    }
+
+    .hero_banner{
+        height: 555px;
+    }
+}
+/*media query for 1024px screen starts here*/
+@media (max-width:1024px) {
+
+    .header{
+        justify-content: space-around;
+    }
+
+    .announcement .container {
+        width: 95%;
+    }
+
+    .levelling {
+        flex-direction: column;
+    }
+
+    .hero_banner {
+        background-position: right;
+    }
+
+    .hero_banner_section, .relation, .contact_us, .main_event, .footer_common{
+        padding: 0 20px;
+    }
+
+    .hero_button{
+        width:30%;
+    }
+
+    .events_top,
+    .events_bottom {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 0px;
+    }
+
+    .avg_icons {
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .events_bottom {
+        padding: 0px;
+    }
+
+    .relation_banner {
+        background-size: contain;
+        height: 310px;
+    }
+
+    .levelling_text {
+        transform: none;
+        text-align: center;
+        padding-bottom: 60px;
+        padding-top: 0px;
+    }
+
+    .levelling_image {
+        margin: auto;
+    }
+
+    .levelling_text p {
+        margin: auto;
+    }
+
+    .grid_common {
+        padding: 20px;
+    }
+
+    .relation_text {
+        position: absolute;
+        top: 21px;
+        left: 40px;
+        width: 44%;
+    }
+
+    .events_top button,
+    .events_bottom button {
+        width: 25%;
+    }
+
+}
+
+/*media query ends for 1024px screen*/
+
+/*media query for 768px screen starts here*/
+@media(max-width:768px) {
+
+    .hero_heading {
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 50px;
+    }
+
+    .hero_button {
+        padding: 12px 3px;
+        width: 25%;
+    }
+
+    .relation_text {
+        position: absolute;
+        top: 10px;
+        left: 31px;
+        width: 52%;
+    }
+
+    .navbar_container a {
+        display: none;
+    }
+
+    .navbar_container ul {
+        min-width: 0;
+    }
+
+    .levelling_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
+
+/*media query for 768px screen starts here*/
+
+/*media query for 520px screen starts here*/
+@media(max-width:520px) {
+
+    .middle_announcement {
+        display: none;
+    }
+
+    .hero_heading {
+        width: 50%;
+    }
+
+    .hero_banner_text {
+        padding: 60px 30px;
+    }
+
+    .hero_banner {
+        background-image: url('/assets/images/herobanner_mob.jpg');
+    }
+
+    .hero_heading {
+        font-size: 36px;
+        line-height: 46px;
+        ;
+    }
+
+    .events_flex p{
+        font-size: 12px;
+    line-height: 22px;
+    }
+
+    .events_flex button{
+        width: 72%;
+    }
+
+    .hero_button {
+        width: 32%;
+    }
+
+    .events_top button,
+    .events_bottom button {
+        width: 35%;
+    }
+
+    .relation_banner {
+        background-image: none;
+        height: 355px;
+    }
+
+    .relation_text p {
+        color: #000000;
+    }
+
+    .relation_text {
+        text-align: center;
+        left: 71px;
+        width: 74%;
+    }
+
+    .relation_text h3 {
+        font-size: 29px;
+    }
+
+    .contact p{
+        padding-top: 60px;
+    }
+
+    .averagemarriage_text {
+        left: 95px;
+        width: 62%;
+        position: relative;
+    }
+
+    .levelling_text{
+        padding: 0;
+    }
+
+    .levelling_text{
+        padding-bottom: 60px;
+    }
+
+    .footer {
+        padding: 0 20px;
+        border-bottom: none;
+    }
+
+    .logo_list img {
+        padding-top: 60px;
+    }
+
+    .Newsletter {
+        border-bottom: 1px solid #000;
+        padding-bottom: 60px;
+    }
+
+    .footer_bluetext {
+        line-height: 7px;
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+
+    .mob_flex {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+}
+
+/*media query for 520px screen ends here*/
+
+/*media query for 375 screen starts here*/
+
+@media(max-width:375px) {
+
+    .hero_button,
+    .events_top button,
+    .events_bottom button {
+        width: 50%;
+    }
+
+    .events_flex img, .hopeful_tomorrows img{
+        width:100%;
+      }
+  }
+
+    .relation_banner {
+        height: 420px;
+        padding-bottom: 70px;
+    }
+
+    .relation_text p {
+        text-shadow: none;
+    }
+
+    .relation_text {
+        left: 38px;
+        width: 85%;
+    }
+
+    .averagemarriage_text p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .averagemarriage_text h3 {
+        font-size: 26px;
+    }
+
+    .averagemarriage_text {
+        left: 40px;
+        width: 80%;
+    }
+
+    .avg_icons {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        height: 272px;
+    }
+
+    .contact p {
+        font-size: 32px;
+        padding-top: 95px;
+        line-height: 38px;
+    }
+
+    .events_top img,
+    .events_bottom img {
+        width: 100%;
+    }
+
+    .events_top p,
+    .events_bottom p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .levelling_button {
+        width: 45%;
+    }
+
+    .email li{
+        width: 200px;
+    }
+
+}
+/*media query for 375 screen ends here*/
+
+/*media query for 320px screen starts here*/
+@media(max-width:320px){
+    .hero_button{
+        width:60%
+    }
+
+    .hero_banner_text{
+        padding: 60px 18px;
+    }
+
+    .contact p{
+        padding-top: 60px;
+    }
+
+    .levelling_up{
+        padding:0 20px;
+    }
+
+    .events_flex img, .hopeful_tomorrows img{
+      width:100%;
+    }
+
+    .footer_bluetext{
+        font-size: 12px;
+    }
+}
+
