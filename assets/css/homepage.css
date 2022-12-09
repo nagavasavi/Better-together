@@ -248,7 +248,7 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     height: 645px;
-    background-image: url('/assets/images/homepage-hero-image.png');
+    background-image: url('../../assets/images/homepage-hero-image.png');
 }
 
 .hero_banner_text {
@@ -419,7 +419,7 @@ table {
     background-repeat: no-repeat;
     background-size: cover;
     height: 510px;
-    background-image: url('/assets/images/relationship-banner.jpg');
+    background-image: url('../../assets/images/relationship-banner.jpg');
 }
 
 .relation_text h3 {
@@ -448,8 +448,8 @@ table {
 .relation_text {
     position: absolute;
     top: 150px;
-    left: 145px;
-    width: 35%;
+    left: 125px;
+    width: 40%;
 }
 
 /*relationship section css ends here*/
@@ -479,6 +479,8 @@ table {
 
 .averagemarriage_text {
     background: #fff;
+    width:100%;
+    
 }
 
 .average_paragraph {
@@ -976,7 +978,7 @@ table {
     .events_flex img, .hopeful_tomorrows img{
         width:100%;
       }
-  }
+  
 
     .relation_banner {
         height: 420px;
@@ -1015,12 +1017,12 @@ table {
     }
 
     .contact p {
-        font-size: 32px;
-        padding-top: 95px;
+        font-size: 29px;
+        padding-top: 83px;
         line-height: 38px;
     }
 
-    .events_top img,
+    /* .events_top img,
     .events_bottom img {
         width: 100%;
     }
@@ -1029,7 +1031,7 @@ table {
     .events_bottom p {
         font-size: 14px;
         line-height: 23px;
-    }
+    } */
 
     .levelling_button {
         width: 45%;

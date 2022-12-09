@@ -243,187 +243,18 @@ table {
     width: 50px;
 }
 
-/*nav bar css starts here*/
+/*nav bar css ends here*/
 
-/*popup date night section css starts here*/
-/*contact block section css starts here*/
-.popup_block p{
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 35px;
-    color: #F6F8F3;
-    padding: 48px;
-    text-align: center;
-}
-
-.block{
-width: 100%;
-background: #7692FF;
-margin-bottom: 65px;
-}
-
-/*contact block section css ends here*/
-
-
-
-
-
-
-
-/*banner section css starts here*/
-.banner_text h3 {
+/*thank you section starts here*/
+.thankyou h3{
     font-family: 'Mont';
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 30px;
     color: #E85F5C;
-    padding-bottom: 20px;
+    padding: 16% 43%;
 }
-
-.banner_mobtext {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 40px;
-    color: #E85F5C;
-    padding-bottom: 20px;
-}
-
-.banner_text p,
-.banner_mobparagraph p {
-    font-family: 'Hind';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 36px;
-    color: #000000;
-    padding-bottom: 30px;
-    width: 80%;
-    padding: 60px auto;
-}
-
-.banner_mobtext {
-    display: none;
-}
-
-.events_banner {
-    display: flex;
-    flex-basis: 50%;
-}
-
-.banner_button {
-    background: #E85F5C;
-    border: 1px solid #E8735C;
-    padding: 10px 10px;
-    width: 30%;
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    color: #F6F8F3;
-    text-decoration: none;
-
-}
-
-.banner_button:hover {
-    background-color: transparent;
-    color: #7692FF;
-    border: 1px solid #7692FF;
-
-}
-
-.banner_text {
-    text-align: left;
-    flex-basis: 50%;
-    justify-content: center;
-    /* padding: 138px 67px; */
-}
-
-.banner_image {
-    padding-bottom: 60px;
-}
-
-.banner_mobimage,
-.banner_mobparagraph,
-.events_gridmob {
-    display: none;
-}
-
-/*banner section css ends here*/
-
-/*grid section css starts here*/
-.events_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 60px;
-}
-
-.grid {
-    padding-bottom: 75px;
-}
-
-/*grid section css starts here*/
-
-/*3 isons section css starts here*/
-.three_icons h3 {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    color: #7692FF;
-}
-
-.three_icons p {
-    font-family: 'Hind';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 34px;
-}
-
-.three_icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 70px;
-}
-
-.icons {
-    padding-bottom: 60px;
-}
-
-/*3 icons section css ends here*/
-
-/*contact us section css starts here*/
-.contact p {
-    font-family: 'Mont';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    color: #F5F8F3;
-    text-align: center;
-    padding-top: 87px;
-
-}
-
-.contact {
-    background-color: #7692FF;
-    height: 200px;
-    margin: 70px 0px;
-}
-
-.contact a {
-    color: #fff;
-}
-
-.contact a:hover {
-    text-decoration: none;
-}
-
-/*contact us section css ends here*/
 
 /*footer section css starts here*/
 .logo_list a,
@@ -518,10 +349,7 @@ margin-bottom: 65px;
 
     .navbar,
     .footer_common,
-    .banner,
-    .grid,
-    .icons,
-    .contact_us {
+    .banner {
         padding: 0 20px;
     }
 
@@ -529,11 +357,6 @@ margin-bottom: 65px;
         height: 555px;
     }
 
-    .events_grid {
-        column-gap: 20px;
-        row-gap: 20px;
-        padding-bottom: 60px;
-    }
 }
 
 /*media query for 1024px screen starts here*/
@@ -555,29 +378,20 @@ margin-bottom: 65px;
         padding: 0px;
     }
 
-    .banner_button {
-        width: 45%;
-    }
-
-    .events_grid {
-        grid-template-columns: 1fr 1fr;
-        row-gap: 50px;
-    }
-
-    .grid1 {
-        margin: auto;
-    }
+   .reach, .touch{
+    padding: 0px 20% 0 10%;
+   }
 
 }
 
 @media(min-width:769px) and (max-width:1023px) {
-    .events_banner {
-        flex-direction: column;
-    }
+   .reach, .touch{
+    padding: 0px 20% 0 5%;
+   }
 
-    .banner_text {
-        padding-bottom: 40px;
-    }
+   .touch button{
+       width:37%
+   }
 }
 
 /*media query ends for 1024px screen*/
@@ -604,6 +418,10 @@ margin-bottom: 65px;
 
     .banner_text {
         padding-bottom: 40px;
+    }
+
+    .touch button{
+        width: 40%;
     }
 }
 
@@ -642,51 +460,28 @@ margin-bottom: 65px;
         justify-content: space-between;
     }
 
-    .banner_image,
-    .banner_text p,
-    .banner_text,
-    .events_grid {
-        display: none;
-    }
+   .reach, .touch{
+       grid-template-columns: 1fr;
+   }
 
-    .banner_mobtext,
-    .banner_mobparagraph,
-    .events_gridmob,
-    .banner_mobimage {
-        display: contents
-    }
+   .reach_left, .touch_left{
+       padding-bottom: 30px;
+   }
 
-    .banner_mobimage img, .banner_mobparagraph p{
-        width:100%
+   .register_today p{
+       padding: 0;
+   }
 
-    }
-
-    .banner_mobtext h3{
-        font-size: 36px;
-        padding-bottom: 20px;
-    }
-
-    .banner_mobimage img{
-        padding-bottom: 15px;
-    }
-
-    .events_gridmob {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 15px;
-        padding: 60px 20px;
-    }
-
-    .three_icons {
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-    }
-
-    .contact p{
-        padding: 70px 30px;
-    }
+   .touch button{
+    width: 40%;
 }
 
+.register_today p{
+    font-size:20px;
+}
+
+   
+}
 
 /*media query for 520px screen ends here*/
 
@@ -698,30 +493,16 @@ margin-bottom: 65px;
         width: 200px;
     }
 
-    .events_gridmob{
-        padding: 60px 0;
-    }
-
-    .contact p {
-        padding: 38px 27px;
-        font-size: 26px;
-    }
-
-    .hero_button{
-        width: 66%;
-    }
-
-    .events_gridmob img{
-        width:100%;
-    }
-
-    .events_gridmob{
-        column-gap: 8px;
-    row-gap: 8px;
-    }
-
-    .footer_bluetext{
+    .footer_bluetext {
         font-size: 12px;
+    }
+
+    .touch button{
+        width: 40%;
+    }
+
+    .register_today p{
+        font-size:20px;
     }
 
 }
@@ -729,3 +510,17 @@ margin-bottom: 65px;
 /*media query for 375 screen ends here*/
 
 /*media query for 320px screen starts here*/
+@media(max-width:320px){
+    .touch button{
+        width: 40%;
+    }
+
+.reach_left h3, .touch_left h3{
+    font-size: 25px;
+}
+
+.register_today p{
+    font-size:20px;
+}
+
+}
